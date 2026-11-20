@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NN Consultor | Consultoría de Inteligencia Artificial</title>
+<meta name="description" content="Implementamos IA en procesos reales de tu negocio: automatizaciones, agentes y atención al cliente. Auditoría gratuita.">
+<meta name="theme-color" content="#14323A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14323A; --ink-soft:#1F4650; --mist:#F2F6F5; --sage:#DCE8E3; --sage-line:#C7D9D2;
+  --brass:#B58A45; --brass-deep:#7F5C23; --text:#1D2B2F; --muted:#52646A; --white:#FFFFFF;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif; --sans:'Figtree',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);font-size:17px;line-height:1.6;color:var(--text);background:var(--white);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:100%;max-width:980px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;color:var(--ink);letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.2vw,3rem);line-height:1.12}
+h2{font-size:clamp(1.6rem,3vw,2.1rem);line-height:1.2}
+p.lead{font-size:1.15rem;color:var(--muted);max-width:38em}
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 1rem/1 var(--sans);padding:15px 26px;border-radius:6px;border:1.5px solid var(--ink);background:var(--ink);color:#fff;text-decoration:none}
+.btn.ghost{background:transparent;color:var(--ink)}
+header.top{border-bottom:1px solid var(--sage-line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{text-decoration:none;font-family:var(--serif);font-size:1.35rem;font-weight:600;color:var(--ink)}
+.hero{background:var(--mist);padding:80px 0;border-bottom:1px solid var(--sage-line)}
+.hero .actions{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+section.block{padding:84px 0}
+.block.tint{background:var(--mist);border-top:1px solid var(--sage-line);border-bottom:1px solid var(--sage-line)}
+.head{max-width:620px;margin-bottom:48px}
+.head p{color:var(--muted);font-size:1.08rem}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.trio article h3{font-size:1.2rem;margin-bottom:10px}
+.trio article p{color:var(--muted)}
+.trio article .n{font-family:var(--serif);font-size:1.6rem;color:var(--brass);margin-bottom:14px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:2px solid var(--ink)}
+.step{padding:24px 24px 0 0;border-left:1px solid var(--sage-line)}
+.step:first-child{border-left:none;padding-left:0}
+.step .n{font-family:var(--serif);font-size:2rem;color:var(--brass);margin-bottom:10px}
+.step h3{font-size:1.05rem;margin-bottom:6px}
+.step p{color:var(--muted);font-size:.95rem}
+.contact{background:var(--ink);color:#DCE8E3;padding:84px 0;text-align:center}
+.contact h2{color:#fff}
+.contact p{color:#BFD2CC;max-width:34em;margin:16px auto 30px}
+.contact .btn{background:#fff;color:var(--ink);border-color:#fff}
+footer{padding:36px 0;color:var(--muted);font-size:.92rem;text-align:center}
+@media(max-width:860px){.trio{grid-template-columns:1fr;gap:32px}.steps{grid-template-columns:1fr 1fr;row-gap:28px}.step{border-left:none;border-top:1px solid var(--sage-line);padding:20px 0 0}.step:first-child{border-top:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="#">NN Consultor</a><a class="btn ghost" href="#contacto" style="padding:10px 18px">Auditoría gratuita</a></div></header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Tu equipo pierde horas en tareas que ya se pueden automatizar</h1>
+    <p class="lead">Sabes que la IA puede ahorrarte tiempo y dinero, pero entre tantas herramientas y promesas no sabes por dónde empezar, ni qué merece la pena de verdad.</p>
+    <div class="actions">
+      <a class="btn" href="#contacto">Pedir auditoría gratuita</a>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="head">
+      <h2>Lo que suele estar pasando</h2>
+      <p>No es falta de voluntad. Es que nadie se ha sentado a mirar los procesos con calma.</p>
+    </div>
+    <div class="trio">
+      <article><div class="n">01</div><h3>Herramientas sueltas que no hablan entre sí</h3><p>Se prueban aplicaciones de IA una a una, sin que encajen en un proceso real del negocio.</p></article>
+      <article><div class="n">02</div><h3>Tareas repetitivas que siguen siendo manuales</h3><p>Responder lo mismo, copiar datos de un sitio a otro, redactar lo de siempre. Trabajo que no aporta y que se puede automatizar.</p></article>
+      <article><div class="n">03</div><h3>Miedo a implementar algo mal</h3><p>Se pospone la decisión por no saber si la inversión en IA va a dar resultado.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="block tint">
+  <div class="wrap">
+    <div class="head"><h2>Cómo trabajamos</h2></div>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Auditoría gratuita</h3><p>Miramos tus procesos actuales y dónde se pierde más tiempo.</p></div>
+      <div class="step"><div class="n">2</div><h3>Hoja de ruta</h3><p>Priorizamos qué automatizar primero según impacto real.</p></div>
+      <div class="step"><div class="n">3</div><h3>Implementación</h3><p>Montamos agentes y automatizaciones a medida de tu negocio.</p></div>
+      <div class="step"><div class="n">4</div><h3>Ajuste continuo</h3><p>Medimos resultados y afinamos lo que haga falta.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap">
+    <h2>Pide tu auditoría gratuita</h2>
+    <p>Te decimos qué procesos de tu negocio se pueden automatizar hoy y cuánto tiempo real te ahorrarían. Sin compromiso.</p>
+    <a class="btn" href="mailto:info@nnconsultor.com">Escribir a info@nnconsultor.com</a>
+  </div>
+</section>
+
+<footer>NN Consultor — Consultoría de Inteligencia Artificial</footer>
+</body>
+</html>
